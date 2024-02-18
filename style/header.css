@@ -1,0 +1,56 @@
+.header__logo {
+    /* display: flex; */
+    padding-top: 33px;
+}
+
+header {
+    background-color: #E1EDE6;
+}
+
+.header {
+    display: flex;
+    height: 100px;
+}
+
+.hero__bird {
+    width: 540px;
+    height: 621px;
+}
+
+.hero__text {
+    max-width: 540px;
+    height: 331px;
+}
+
+.hero__titel {
+    align-items: flex-start;
+}
+
+.hero__subtitle {
+    align-items: flex-end;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    margin-right: 60px;
+}
+
+a {
+    color: #2C2D35;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23.48px;
+}
