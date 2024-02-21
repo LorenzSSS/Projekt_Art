@@ -102,19 +102,44 @@ span {
 .promo {
     margin: 0 auto;
     margin-top: 70px;
-    width: 1440px;
+    width: 100%; 
     height: 574px;
-    background-image: url(../art_border/pic_background.png);
-    
+    background: url(../art_border/pic_background.png) center/cover no-repeat;
+    padding-left: 165px;
 }
 
 .promo__titel {
     color: #F4F6F5;
     font-size: 40px;
     line-height: 40px;
+    padding-top: 70px;
+    display: flex;
+}
+
+.collection {
+    padding-left: 20px;
 }
 
 .promo__subtitle {
     color: #FFFFFF;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+.btn__promo {
+    display: block;
+    width: 257px;
+    height: 65px;
+    color: #2C2D35;
+    background-color: #EEDB6D;
+    font-size: 20px;
+    margin-top: 60px;
+    padding: 20px 60px;
+}
+
+.our__team {
+    margin-top: 70px;
+    display: flex;
 }
 
